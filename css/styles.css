@@ -1,0 +1,26 @@
+.content {
+  /* make us of Flexbox */
+  display: flex; 
+  /* does vertically center the desired content */
+  align-items: center;
+  /* horizontally centers single line items */
+  justify-content: center;
+  /* optional, but helps horizontally center text that breaks into multiple lines */
+  /* text-align: center; */
+}  
+
+.sm-link {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sm-link li {
+  padding: 0 10px;
+}
+.sm-link li:nth-child(1) {
+  padding-left: 0;
+}
+h1 + p {
+  margin-bottom: 10px;
+}
